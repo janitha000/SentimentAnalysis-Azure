@@ -7,7 +7,7 @@ namespace SentimentAnalysis
 {
     public class HttpHandler
     {
-        private const string SubscriptionKey = "dd0e293190144f3082e98b8782000450";
+        private string SubscriptionKey = ResourceManager.SubscriptionKey;
 
         public  HttpClient GetClient()
         {
